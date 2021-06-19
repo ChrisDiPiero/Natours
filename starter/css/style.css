@@ -28,4 +28,6 @@ body {
     background-image: linear-gradient(to right bottom, #7ed56fc0, #28b485c0), url(../img/hero.jpg); /*to make gradient, use background image*/
     background-size: cover;
     background-position: top;
+
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); /*starting top left in clockwise direction*/
 }
