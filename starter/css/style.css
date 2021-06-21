@@ -28,6 +28,30 @@ body {
     background-image: linear-gradient(to right bottom, #7ed56fc0, #28b485c0), url(../img/hero.jpg); /*to make gradient, use background image*/
     background-size: cover;
     background-position: top;
+    position: relative;
 
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /*starting top left in clockwise direction*/
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+
+}
+
+.heading-primary-sub {
+
 }
